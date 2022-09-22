@@ -1,5 +1,11 @@
 # Gridium Project
 
+## Important
+
+The Google Chrome application should be downloaded and installed: https://www.google.com/chrome/
+The ChromeDrive application should be downloaded and installed: https://chromedriver.chromium.org/downloads
+The Python language should be downloaded and installed: https://www.python.org/downloads/
+
 ## Install and run the project
 
 ```bash
@@ -8,6 +14,12 @@ $ cd Gridium
 $ python -m pip install --upgrade pip && python -m pip install numpy && python -m pip install pandas && python -m pip install selenium
 $ python main.py
 ```
+
+## Python scripts
+
+The "main.py" and "script.py" files contains all the code to execute.
+The line 15 of "main.py" should be adapted to the path of the Google Chrome application.
+The line 16 of "main.py" should be adapted to the path of the ChromeDriver application
 
 ## Requirements
 
