@@ -20,7 +20,7 @@ URL = "https://www.tide-forecast.com/"  # URL Homepage
 
 def webdriver() -> WebDriver:
     """
-    Open the Chrome webdriver
+    Open the Chrome WebDriver
     """
 
     service = Service(CHROMEDRIVER_PATH)
@@ -29,7 +29,7 @@ def webdriver() -> WebDriver:
     options.add_argument('--headless')  # Launch browser without UI (headless)
     options.binary_location = GOOGLE_CHROME_BIN
 
-    driver = Chrome(service=service, options=options)  # Chrome webdriver
+    driver = Chrome(service=service, options=options)  # Chrome WebDriver
     driver.get(URL)
     return driver
 
@@ -65,7 +65,7 @@ def main() -> int:
             driver.close()
             return 1
 
-    driver.close()  # Close the webdriver
+    driver.close()  # Close the WebDriver
     return 0
 
 
