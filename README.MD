@@ -3,8 +3,8 @@
 ## Install and run the project
 
 ```bash
-$ git clone https://github.com/arnel-sanchez/IA-Sim-Com
-$ cd SamuelPW_Gridium
+$ git clone https://github.com/SamuelPupo/Gridium
+$ cd Gridium
 $ python -m pip install --upgrade pip && python -m pip install numpy && python -m pip install pandas && python -m pip install selenium
 $ python main.py
 ```
