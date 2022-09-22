@@ -12,8 +12,8 @@ from os.path import exists
 from script import extract
 
 
-GOOGLE_CHROME_BIN = "C:/Program Files/Google/Chrome/Application/chrome.exe"  # Location of the Chrome application
-CHROMEDRIVER_PATH = "C:/Users/samue/Downloads/chromedriver.exe"  # Location of the Chromedriver application
+GOOGLE_CHROME_BIN = "C:/Program Files/Google/Chrome/Application/chrome.exe"  # Path of the Google Chrome application
+CHROMEDRIVER_PATH = "C:/Users/samue/Downloads/chromedriver.exe"  # Path of the Chromedriver application
 
 URL = "https://www.tide-forecast.com/"  # URL Homepage
 
